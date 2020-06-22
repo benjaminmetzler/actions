@@ -16,8 +16,11 @@ jobs:
     - name: build
       run: g++ hello.c
     - name: test 1
+      if: always()
       run: ./a.out 0
     - name: test 2
+      if: always()
       run: ./a.out 1
     - name: test 3
+      if: always()
       run: ./a.out 0
