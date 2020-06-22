@@ -17,3 +17,7 @@ jobs:
       run: g++ hello.c
     - name: test 1
       run: ./a.out
+    - name: test 2
+      run: ./a.out
+    - name: test 3
+      run: ./a.out
